@@ -1,6 +1,6 @@
 {
   "name": "tree-sitter-jsonnet",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "jsonnet grammar for tree-sitter",
   "main": "bindings/node",
   "types": "bindings/node",
@@ -21,7 +21,7 @@
     "node-gyp-build": "^4.8.0"
   },
   "peerDependencies": {
-    "tree-sitter": "^0.21.0"
+    "tree-sitter": "^0.22.4"
   },
   "peerDependenciesMeta": {
     "tree_sitter": {
@@ -29,7 +29,7 @@
     }
   },
   "devDependencies": {
-    "tree-sitter-cli": "^0.22.6",
+    "tree-sitter-cli": "^0.24.6",
     "prebuildify": "^6.0.0"
   },
   "scripts": {
